@@ -18,12 +18,14 @@ def update_status
          {name: "Nurse", age: "44", attitude: "worried"}
          ]
       }
+      epic_tragedy[:montague][:hero][:status] = "dead"
+      epic_tragedy[:capulet][:heroine][:status] = "dead"
    }
 
   # Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
   # Code your solution here:
-epic_tragedy[:montague][:hero][:status] = "dead"
-epic_tragedy[:capulet][:heroine][:status] = "dead"
+#epic_tragedy[:montague][:hero][:status] = "dead"
+#epic_tragedy[:capulet][:heroine][:status] = "dead"
 
 
 
@@ -60,7 +62,7 @@ def add_characters
    #   - The first hash should have the :name key set to "Prince Escalus" 
    #   - The second hash should have the :name key set to "Apothecary" 
    # Code your solution here:
-
+epic_tragedy
 
 
 
